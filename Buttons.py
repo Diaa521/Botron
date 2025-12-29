@@ -1,0 +1,82 @@
+
+'''
+Docstring for BrowserBot.Buttons
+
+This file contains all the buttons that can reject an action. Here are all the buttons that the bot is allowed to press.
+'''
+
+
+
+# possible rejection buttons
+reject_buttons = [
+    "Ablehnen",
+    "Alle Ablehnen",
+    "Alle ablehnen"
+    "Ich lehne ab",
+    "Nicht zustimmen",
+    "Nicht einverstanden",
+    "I don't agree",
+    "Disagree",
+    "Reject",
+    "I do not agree",
+    "Reject all",
+    "Decline",
+    "Deny",
+    "No, thanks",
+    "Nur notwendige Cookies",
+    "Nur essentielle Cookies",
+    "close",
+    "Essential Cookies Only",
+    "weiter",
+    "Weiter",
+    "Necessary Cookies Only",
+    "Chatbot Botro"
+    "Abbrechen",
+    "Strictly Necessary Only",
+    "Nicht akzeptieren",
+    "Verweigern",
+    "Keine Zustimmung",
+    "Nur erforderliche Cookies",
+    "Nur funktionale Cookies",
+    "Nur technisch notwendige",
+    "Nur Basisfunktionen",
+    "Nur minimale Einstellungen",
+    "Nur System-Cookies",
+    "Nur essentielle Funktionen",
+    "Nur erforderliche Einstellungen",
+    "Nur technische Zustimmung",
+    "Nur Grundfunktionen",
+    "Nur notwendige Zustimmung",
+    "Nur kritische Cookies",
+    "Nur Pflicht-Cookies",
+    "Nur unverzichtbare Cookies",
+    "Nur Kernfunktionen",
+    "Nur Systemrelevantes",
+    "Nur Sicherheitsfunktionen",
+    "Nur Datenschutzkonform",
+    "Nur gesetzlich erforderliche",
+    "Nur minimaler Zugriff",
+    "Nur eingeschränkte Nutzung",
+    "Nur Basiseinstellungen",
+    "Nicht jetzt",
+    "Ohne Zustimmung fortfahren",
+    "Nur mit Mindestdaten",
+    "Nur mit Basisdaten",
+    "Nur mit eingeschränkter Zustimmung",
+    "Nur mit minimaler Verarbeitung",
+    "Nur mit gesetzlicher Grundlage",
+    "Nur mit anonymen Daten",
+    "Nur mit eingeschränkter Funktion",
+    "Nur mit eingeschränktem Zugriff",
+    "Nur mit gesetzlich erlaubten Cookies",
+    "Nur mit datenschutzfreundlicher Einstellung",
+    "Nur mit eingeschränkter Einwilligung",
+    "Nur mit minimaler Einwilligung",
+    "Nur mit datensparsamer Nutzung",
+    "Nur mit eingeschränkter Datenverarbeitung",
+    "Nur mit gesetzlich zulässiger Nutzung",
+    "Nur mit technisch erforderlicher Zustimmung",
+    "Nur mit minimaler Interaktion",
+    "Nur mit eingeschränkter Aktivierung",
+    "Nur mit gesetzlicher Erlaubnis"
+]
