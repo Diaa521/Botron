@@ -1,0 +1,33 @@
+# Botron – Browser Automation Bot
+
+Botron is a Python bot built with [Playwright](https://playwright.dev/python/) that automatically visits allowed websites, interacts with cookie/reject buttons, and simulates user behavior such as scrolling.  
+It is designed as a lightweight automation tool to demonstrate browser scripting and interaction handling.
+
+---
+
+##  Features
+- Visits a random website from a predefined **allowed list**.
+- Detects and clicks **reject/decline buttons** (e.g. cookie consent).
+- Scrolls down and back up to simulate human browsing.
+- Handles errors gracefully and closes the browser after each session.
+- Customizable lists of:
+  - `AllowedWebsites.py` → websites the bot can visit.
+  - `Buttons.py` → rejection/decline buttons the bot can press.
+
+---
+
+## 📂 Project Structure
+- `main.py` → Core bot logic (Playwright automation, scrolling, button handling).
+- `AllowedWebsites.py` → Contains the list of allowed websites.
+- `Buttons.py` → Contains all possible reject/decline button texts.
+
+---
+
+## 🔧 Requirements
+- Python 3.9+
+- Playwright
+- Colorama
+
+Install dependencies:
+```bash
+pip install playwright colorama
